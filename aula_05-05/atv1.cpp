@@ -71,7 +71,8 @@ int main() {
     std::vector<Produto*> lista;
     int opcao;
 
-    do {
+    do 
+    {
         std::cout << "1 - Cadastrar Produto Limpeza" << std::endl;
         std::cout << "2 - Cadastrar Produto Alimenticio" << std::endl;
         std::cout << "3 - Cadastrar Produto Eletronico" << std::endl;
