@@ -52,8 +52,7 @@ public:
 
 class ProdutoEletronico : public Produto
 {
-    std::string voltagem;
-    std::string garantia;
+    std::string voltagem, garantia;
 
 public:
 
